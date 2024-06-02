@@ -412,6 +412,9 @@ textarea{
     .boton_menu:hover{
         background-color: rgb(10, 68, 36);
     }
+    .no-scroll {
+        overflow: hidden;
+    }
 
     /* Footer */
     footer{
