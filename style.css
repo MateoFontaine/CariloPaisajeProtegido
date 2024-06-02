@@ -242,6 +242,7 @@ footer{
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .derecha{
     display: flex;
@@ -325,7 +326,37 @@ textarea{
     border-radius: 10px;
 }
 
-/* Telefonos de Ayuda */
+/* Comision Directiva */
+.comision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comision h2{
+    margin-bottom: 2rem;
+}
+.comisionTarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 68rem;
+}
+.comisionCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 14rem;
+}
+.comisionCard p{
+    color: rgb(17, 110, 59);
+}
 
 
 
