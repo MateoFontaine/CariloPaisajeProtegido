@@ -30,14 +30,14 @@ header {
 .nav-list {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .abrir-menu,
@@ -51,7 +51,7 @@ header {
     color: white;
     padding: .8rem;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .boton:hover{
     background-color: rgb(10, 68, 36);
@@ -186,15 +186,18 @@ footer{
 }
 .asociarseBtn{
     border: 1px solid rgb(17, 110, 59);
+    background-color: rgb(17, 110, 59);
     padding: .5rem;
     border-radius: 30px;
     color: rgb(17, 110, 59);
     text-decoration: none;
     transition: 500ms;
+    color: white;
 }
 .asociarseBtn:hover{
-    background-color: rgb(17, 110, 59);
-    color: white;
+    background-color: white;
+    border: 1px solid rgb(17, 110, 59);
+    color: rgb(17, 110, 59);
 }
 .comisionBtn{
     border: 1px solid black;
@@ -349,7 +352,7 @@ textarea{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     padding: 1.5rem;
     border-radius: 10px;
     width: 14rem;
