@@ -15,30 +15,34 @@ hr{
 
 /* -------------------------------------- Desktop -------------------------------------------- */
 /* Header */
-.header{
+header {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
+    background-color: white;
 }
-.header img {
-    width: 7rem;
+
+.logo {
+    max-width: 6rem;
 }
-.nav ul{
+
+.nav-list {
+    list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+    gap: 1rem;
 }
-.nav ul li{
-    list-style: none;
-}
+
 .nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
 }
 .boton{
     text-decoration: none;
@@ -51,6 +55,9 @@ hr{
 }
 .boton:hover{
     background-color: rgb(10, 68, 36);
+}
+.boton_menu{
+    display: none;
 }
 
 /* Footer */
@@ -307,11 +314,127 @@ textarea{
 .contactoImagen img{
     width: 37rem;
 }
+.botonContacto{
+    margin-top: 1rem;
+    width: 5rem;
+    background-color: rgb(21, 107, 78);
+    color: white;
+    padding: .8rem 1rem .8rem 1rem;
+    border:0px;
+    border-radius: 10px;
+}
+
+/* Telefonos de Ayuda */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------------- Mobile -------------------------------------------- */
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1020px){
     /* Header */
+    header{
+        justify-content: space-between;
+    }
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+    .boton{
+        display: none;
+    }
+    .boton_menu{
+        display: flex;
+        text-decoration: none;
+        background-color: rgb(17, 110, 59);
+        border-radius: 10px;
+        color: white !important;
+        padding: .8rem;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .boton_menu:hover{
+        background-color: rgb(10, 68, 36);
+    }
+
+
+    /* Quienes Somos */
+    .quienesSomos{
+        margin: 2rem;
+    }
+
+    /* Ley */
+    .ley{
+        padding: 2rem;
+    }
+
+    /* Recomendaciones */
+    .recomendaciones{
+        margin: 2rem;
+    }
+
+    /* Contacto */
+    .contactoImagen{
+        margin: 2rem;
+    }
+    .contactoImagen img{
+        width: 100%;
+    }
 
 }
 
