@@ -72,6 +72,7 @@ footer{
 }
 .linkFooter{
     margin-top: 1.5rem;
+    text-align: center;
     
 }
 .linkFooter a{
@@ -412,6 +413,10 @@ textarea{
         background-color: rgb(10, 68, 36);
     }
 
+    /* Footer */
+    footer{
+        padding: 2rem;
+    }
 
     /* Quienes Somos */
     .quienesSomos{
