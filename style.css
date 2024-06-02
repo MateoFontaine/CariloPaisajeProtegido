@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    /* font-family: "Fjalla One", sans-serif; */
+}
+hr{
+    margin: 2rem;
+}
+
+/* -------------------------------------- Desktop -------------------------------------------- */
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.header img {
+    width: 7rem;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.boton{
+    text-decoration: none;
+    background-color: rgb(17, 110, 59);
+    border-radius: 10px;
+    color: white;
+    padding: .8rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.boton:hover{
+    background-color: rgb(10, 68, 36);
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(17, 110, 59);
+    color: white;
+    padding: 1.5rem 0rem;
+}
+.linkFooter{
+    margin-top: 1.5rem;
+    
+}
+.linkFooter a{
+    color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logoFooter img{
+    width: 6rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.contactoRedesFooter{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contactoFooter{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://bosquespinamar.com/img/new/galeria-dos.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 5vw 0rem;
+}
+.banner h2{
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    margin: 0;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.banner p{
+    color: white;
+}
+
+
+/* Quienes Somos */
+.quienesSomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.quienesSomos img{
+    width: 20rem;
+}
+.textoQuienesSomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.quienesSomosTxt{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.quienesSomosTxt p{
+    max-width: 40rem;
+}
+.botonesMision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+.descargar{
+    border: 1px solid red;
+    padding: .5rem;
+    border-radius: 30px;
+    color: red;
+    text-decoration: none;
+    transition: 500ms;
+}
+.descargar:hover{
+    background-color: red;
+    color: white;
+}
+.asociarseBtn{
+    border: 1px solid rgb(17, 110, 59);
+    padding: .5rem;
+    border-radius: 30px;
+    color: rgb(17, 110, 59);
+    text-decoration: none;
+    transition: 500ms;
+}
+.asociarseBtn:hover{
+    background-color: rgb(17, 110, 59);
+    color: white;
+}
+.comisionBtn{
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    margin-top: .5rem;
+    transition: 500ms;
+}
+.comisionBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Ley */
+.ley{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgb(17, 110, 59);
+    color: white;
+    padding: 0rem 1rem;
+    gap: 1rem;
+    
+}
+.ley img{
+    width: 20rem;
+}
+.leyTexto{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 40rem;
+}
+
+/* Recomendaciones */
+.recomendaciones{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.derecha{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.izquierda{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: rem;
+}
+.cardRecomendaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.cardRecomendaciones p{
+    width: 22rem;
+}
+.cardRecomendaciones img{
+    width: 6rem;
+}
+.tarjetasRecomendaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Contacto */
+.contacto{
+    width: 400px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .4rem;
+}
+a{
+    color: green;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 1rem
+}
+textarea{
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contactoImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem ;
+}
+.contactoImagen img{
+    width: 37rem;
+}
+
+/* -------------------------------------- Mobile -------------------------------------------- */
+
+@media screen and (max-width: 720px){
+    /* Header */
+
+}
+
