@@ -293,7 +293,6 @@ footer{
     color: white;
     max-width: 800px;
     padding: 2rem 0rem;
-    border: 1px solid red;
 }
 .cardAyuda{
     display: flex;
@@ -306,6 +305,10 @@ footer{
 }
 .cardAyudaP{
     font-size: .8rem;
+}
+.pCardsAyuda{
+    color: white;
+    text-decoration: none;
 }
 .containerTel{
     display: flex;
