@@ -285,16 +285,42 @@ footer{
 
 /* Datos utiles */
 .telAyuda{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 2rem;
     color: white;
+    max-width: 800px;
+    padding: 2rem 0rem;
+    border: 1px solid red;
+}
+.cardAyuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    gap: 4px;
+}
+.cardAyudaP{
+    font-size: .8rem;
+}
+.containerTel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(17, 110, 59);
+    width: 100%;
 }
 
 
 
 
 
-
 .blackToWhite{
+    width: 6rem;
     filter: invert(100%) contrast(100%);
 }
 
