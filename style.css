@@ -283,6 +283,30 @@ footer{
     gap: 1rem;
 }
 
+/* Datos utiles */
+.telAyuda{
+    color: white;
+    background-color: rgb(17, 110, 59);
+}
+
+
+
+
+
+
+.blackToWhite{
+    filter: invert(100%) contrast(100%);
+}
+
+
+
+
+
+
+
+
+
+
 /* Contacto */
 .contacto{
     width: 400px;
@@ -361,7 +385,40 @@ textarea{
     color: rgb(17, 110, 59);
 }
 
-
+/* Asociarse */
+.asociarse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.asociarseCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 0rem 0rem 2rem 0rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+.asociarseCard img{
+    width: 100%;
+}
+.asociarse button{
+    border: 1px solid rgb(17, 110, 59);
+    background-color: rgb(17, 110, 59);
+    padding: .5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 500ms;
+    color: white;
+}
+.asociarse button a{
+    text-decoration: none;
+}
 
 
 
