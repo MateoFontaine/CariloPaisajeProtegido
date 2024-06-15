@@ -119,10 +119,11 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("https://bosquespinamar.com/img/new/galeria-dos.jpg");
+    background-image: url("assets/img/banner.png");
     background-position: center;
     background-size: cover;
     padding: 5vw 0rem;
+    opacity: 1rem;
 }
 .banner h2{
     text-align: center;
@@ -291,7 +292,7 @@ footer{
     flex-wrap: wrap;
     gap: 2rem;
     color: white;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 2rem 0rem;
 }
 .cardAyuda{
@@ -300,8 +301,9 @@ footer{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 200px;
+    width: 250px;
     gap: 4px;
+    border: 1px solid red;
 }
 .cardAyudaP{
     font-size: .8rem;
@@ -309,6 +311,7 @@ footer{
 .pCardsAyuda{
     color: white;
     text-decoration: none;
+    width: 100%;
 }
 .containerTel{
     display: flex;
