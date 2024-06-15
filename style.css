@@ -558,6 +558,13 @@ textarea{
         margin: 2rem;
     }
 
+    /* Datos utiles */
+    .cardAyuda{
+        width: 150px;
+    }
+
+    
+
     /* Contacto */
     .contactoImagen{
         margin: 2rem;
