@@ -308,7 +308,7 @@ footer{
     font-size: .8rem;
 }
 .pCardsAyuda{
-    color: white;
+    color: white !important;
     text-decoration: none;
     width: 100%;
 }
