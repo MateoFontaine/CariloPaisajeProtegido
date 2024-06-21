@@ -328,6 +328,12 @@ footer{
     width: 6rem;
     filter: invert(100%) contrast(100%);
 }
+.white{
+    width: 7rem;
+}
+.whiteMuni{
+    width: 5rem;
+}
 
 
 
