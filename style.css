@@ -175,15 +175,15 @@ footer{
     margin-top: .5rem;
 }
 .descargar{
-    border: 1px solid red;
+    border: 1px solid rgb(17, 110, 59);
     padding: .5rem;
     border-radius: 30px;
-    color: red;
+    color: rgb(17, 110, 59);
     text-decoration: none;
     transition: 500ms;
 }
 .descargar:hover{
-    background-color: red;
+    background-color: rgb(17, 110, 59);
     color: white;
 }
 .asociarseBtn{
