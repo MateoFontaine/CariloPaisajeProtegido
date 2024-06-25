@@ -105,13 +105,18 @@ footer{
     flex-wrap: wrap;
     gap: 1rem;
 }
+.contactoRedesFooter p a{
+    color: white !important;
+}
 .contactoFooter{
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
 }
-
+.seguinos a{
+    color: white !important;
+}
 
 /* Banner */
 .banner{
