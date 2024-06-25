@@ -380,7 +380,8 @@ textarea{
     margin-bottom: 3rem ;
 }
 .contactoImagen img{
-    width: 37rem;
+    width: 34rem;
+    border-radius: 10px;
 }
 .botonContacto{
     margin-top: 1rem;
