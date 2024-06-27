@@ -97,7 +97,21 @@ footer{
     padding: 1rem;
     border-radius: 100%;
 }
-
+.whatsapp {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: .4rem;
+}
+.whatsappNum{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.whatsappNum a{
+    color: white;
+}
 .contactoRedesFooter{
     display: flex;
     justify-content: start;
@@ -107,6 +121,13 @@ footer{
 }
 .contactoRedesFooter p a{
     color: white !important;
+}
+.contactoRedes{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: .4rem;
 }
 .contactoFooter{
     display: flex;
@@ -361,12 +382,12 @@ footer{
     justify-content: center;
     gap: .4rem;
 }
-.contacto p a{
+/* .contacto p a{
     color: green;
-}
+} */
 input{
     border: 1px solid gray;
-    border-radius: 6px;
+    border-radius: 3px;
     font-size: 1rem
 }
 textarea{
