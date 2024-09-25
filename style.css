@@ -555,7 +555,7 @@ textarea{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin: 6rem;
+    margin: 4rem 15rem ;
 }
 .textoEncabezado{
     display: flex;
