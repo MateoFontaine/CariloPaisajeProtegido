@@ -550,6 +550,59 @@ textarea{
 
 
 
+.asociarseForms{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 6rem;
+}
+.textoEncabezado{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    
+}
+.fichaAsociacion p{
+    background-color: #3CB34D;
+    color: white;
+    padding: .5rem;
+}
+.forms{
+    margin-top: 1rem;
+    width: 100%;
+}
+.forms form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.forms input{
+    border: 0px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.socioActivoAdeherente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.socioActivoAdeherente .activo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+.socioActivoAdeherente .adeherente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
 
 
 
@@ -737,59 +790,6 @@ textarea{
 }
 
 
-.asociarseForms{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    margin: 4rem;
-}
-.textoEncabezado{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    
-}
-.fichaAsociacion p{
-    background-color: #3CB34D;
-    color: white;
-    padding: .5rem;
-}
-.forms{
-    margin-top: 1rem;
-    width: 100%;
-}
-.forms form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
-}
-.forms input{
-    border: 0px;
-    border-bottom: 1px solid black;
-    width: 100%;
-}
-.socioActivoAdeherente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.socioActivoAdeherente .activo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .8rem;
-}
-.socioActivoAdeherente .adeherente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .8rem;
-}
 
 
 
